@@ -73,3 +73,7 @@ h1{font-size: 64px;
   font-style: italic; 
   text-align: center;}
 #name a{color: white;font-style: border;}
+
+.img-circle { 
+  border-radius: 50%;
+}
