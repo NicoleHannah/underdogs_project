@@ -1,0 +1,26 @@
+body{
+	background-color: black; 
+	color: white;
+	}
+legend {color: white; text-align: center;padding:30px; 
+	font-size: 35px; 
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+	font-style:italic;
+}
+.form{ padding-top: 150px; padding-bottom: 175px; padding-left: 575px;
+		font-family: "Comic Sans MS", cursive, sans-serif;}
+h1{font-size: 64px; 
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic; 
+	text-align: center;}
+.summary{
+	padding: 25px; 
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+	font-size: 16px; 
+	text-align: justify;}
+.quote{
+	padding: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+	font-style: italic;}
+.end{font-size: 18px;}
