@@ -1,0 +1,42 @@
+<head>
+  <title> Who is your UD?</title>
+  <link href="contact_form.css" rel="stylesheet">
+
+
+
+<body>
+  <header>
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="https://nicolehannah.github.io/underdogs_project/">Home</a></li>
+        <li class="profiles"><a href="#">Profiles</a></li>
+        <li class="yourunderdog"><a href="#">Who is your UD?</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="container">
+    <form action="/action_page.php">
+      <fieldset>
+        <LEGEND>Who is your underdog?</LEGEND>
+      <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="uk">UK</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+      <label for="subject">Tell us about your underdog(s):</label>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+</body>
