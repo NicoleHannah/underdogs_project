@@ -1,5 +1,10 @@
 /* Style inputs with type="text", select elements and textareas */
-body {background-color: black;}
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  background-color: black;
+}
 
 .nav ul {
   list-style: none;
@@ -48,6 +53,28 @@ body {background-color: black;}
     display: inline-block;
     margin-right: -4px;
   }
+
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+
+
+
+
+
+
 legend {color: white; text-align: center;padding:30px; 
     font-size: 35px; 
     font-family: "Comic Sans MS", cursive, sans-serif; 
