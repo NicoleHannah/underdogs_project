@@ -1,0 +1,120 @@
+h1 {
+  padding-top: 5%;
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-family: arial;
+  font-size: 35px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 220px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+
+img {
+  width: auto;
+  display: block;
+  margin: auto;
+  height: 350px;
+}
+body {
+    background-image: url("https://static.pexels.com/photos/66997/pexels-photo-66997.jpeg");
+    background-size: cover;
+}
+
+.browse-button {
+  display: inline-block;
+  background-color: white;
+  width: 300px;
+  padding: 12px;
+  color: #5D5D5D;
+  border: 2px solid #5D5D5D;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+
+.browse-button:hover,
+.browse-button:active {
+  background-color: transparent;
+  border: solid white;
+  color: white;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
